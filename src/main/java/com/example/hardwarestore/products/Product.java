@@ -5,13 +5,7 @@ import jakarta.persistence.*;
 import java.util.Objects;
 
 @Entity
-//@NamedQuery(
-//        name = Product.COUNT_MATCHING_PRODUCT_IDS,
-//        query = "select count(*) from Product p where p.id in (:productIds)"
-//)
 public class Product {
-
-//    public static final String COUNT_MATCHING_PRODUCT_IDS = "Product.countMatchingProductIds";
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

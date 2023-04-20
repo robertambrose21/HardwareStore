@@ -16,7 +16,7 @@ public class Order {
 
     private UUID customerId;
 
-    @OneToMany(cascade = CascadeType.ALL, orphanRemoval = true)
+    @OneToMany(cascade = CascadeType.ALL)
     private List<ProductOrder> products;
 
     public Order() {
